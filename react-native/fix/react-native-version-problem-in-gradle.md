@@ -1,4 +1,10 @@
-# react native version problem in gradle
+---
+cover: >-
+  https://images.unsplash.com/photo-1651545062596-c150b3b03d8c?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw3fHx2ZXJzaW9ufGVufDB8fHx8MTY2ODgzNzQxMQ&ixlib=rb-4.0.3&q=80
+coverY: 0
+---
+
+# 🍇 react native version problem in gradle
 
 ### 编译错误
 
