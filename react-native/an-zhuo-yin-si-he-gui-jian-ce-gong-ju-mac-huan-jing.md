@@ -116,7 +116,7 @@ python3 camille.py com.dicos
 // frida version: 16.0.2
 // frida-server file version 16.0.2
 
-bas[Terminal window 1]
+[Terminal window 1]
     yarn startup
 [Terminal window 2]
     yarn android:devDebug
