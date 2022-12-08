@@ -6,7 +6,7 @@
 * [JS](js.md)
 * [TS](ts.md)
 * [HTML](html.md)
-* [CSS](css/README.md)
+* [CSS](css.md)
   * [z-index](css/z-index.md)
 * [Vue](vue.md)
 * [React](react.md)

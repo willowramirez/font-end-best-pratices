@@ -6,10 +6,6 @@ coverY: 0
 
 # 📱 安卓隐私合规检测工具(Mac环境)
 
-
-
-
-
 ## 环境搭建
 
 ### 1. 安装 Python（MAC）
@@ -128,7 +124,7 @@ python3 camille.py com.dicos
     cd /data/local/tmp
     chmod 777 frida-server-16.0.2-android-arm64
     ./frida-server-16.0.2-android-arm64
-    [Terminal window 4]
+[Terminal window 4]
     cd android/privacy/camille
     python3 camille.py com.dicos
 ```
