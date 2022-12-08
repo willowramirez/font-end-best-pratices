@@ -15,3 +15,4 @@
 * [React](react.md)
 * [Node](node.md)
 * [Tools](tools.md)
+* [privacy](privacy.md)
