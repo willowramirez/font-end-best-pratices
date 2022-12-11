@@ -1,6 +1,8 @@
 # z-index
 
-```js
+
+
+```typescript
 const makeZIndexes = layers =>
   layers.reduce((agg, layerName, index) => {
     const valueName = `z-index-${layerName}`;
