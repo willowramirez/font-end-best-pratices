@@ -1,11 +1,6 @@
 # Table of contents
 
-* [React Native](README.md)
-  * [📱 安卓隐私合规检测工具(Mac环境)](react-native/an-zhuo-yin-si-he-gui-jian-ce-gong-ju-mac-huan-jing.md)
-  * [Fix](readme/fix.md)
-  * [Android](readme/android.md)
-  * [Page 1](readme/page-1.md)
-* [🧑🏫 Team](team.md)
+* [🧑🏫 Team](README.md)
 * [📽 Project](project.md)
 * [JS](js.md)
 * [TS](ts.md)

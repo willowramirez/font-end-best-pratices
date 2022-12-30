@@ -4,14 +4,14 @@ cover: >-
 coverY: 0
 ---
 
-# 📱 安卓隐私合规检测工具(Mac 环境)
+# camille
 
 ## 环境搭建
 
 ### 1. 安装 Python（MAC）
 
-- M1 芯片自带 python3
-- intel 芯片自带 python2
+* M1 芯片自带 python3
+* intel 芯片自带 python2
 
 ### 2. 安装 frida
 
