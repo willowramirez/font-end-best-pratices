@@ -10,6 +10,7 @@
 * [TS](ts.md)
 * [HTML](html.md)
 * [CSS](css.md)
+  * [🌰 cheatsheet](css/cheatsheet.md)
   * [z-index](css/z-index.md)
 * [Vue](vue.md)
 * [React](react.md)
