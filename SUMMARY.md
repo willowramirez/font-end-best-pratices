@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🧑🏫 Team](README.md)
+* [Team](README.md)
 * [📽 Project](project.md)
 * [JS](js.md)
 * [TS](ts.md)
