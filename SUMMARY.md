@@ -22,3 +22,4 @@
   * [Android](rn/android/README.md)
     * [🍇 react native version problem in gradle](rn/android/react-native-version-problem-in-gradle.md)
     * [android-privacy-check-tool](rn/android/android-privacy-check-tool.md)
+    * [camille](rn/android/camille.md)
