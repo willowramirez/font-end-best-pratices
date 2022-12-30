@@ -1,10 +1,11 @@
 # Table of contents
 
 * [React Native](README.md)
-  * [android-privacy-check-tool](readme/android-privacy-check-tool.md)
   * [📱 安卓隐私合规检测工具(Mac环境)](react-native/an-zhuo-yin-si-he-gui-jian-ce-gong-ju-mac-huan-jing.md)
   * [Fix](react-native/fix/README.md)
     * [🍇 react native version problem in gradle](react-native/fix/react-native-version-problem-in-gradle.md)
+  * [Android](readme/android/README.md)
+    * [android-privacy-check-tool](readme/android/android-privacy-check-tool.md)
 * [🧑🏫 Team](team.md)
 * [📽 Project](project.md)
 * [JS](js.md)
