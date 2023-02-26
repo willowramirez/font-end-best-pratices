@@ -4,7 +4,7 @@ cover: >-
 coverY: 0
 ---
 
-# react native version problem in gradle
+# 🍇 react native version problem in gradle
 
 ### 编译错误
 
