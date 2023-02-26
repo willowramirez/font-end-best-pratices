@@ -50,8 +50,7 @@ CustomComponentRef.displayName = "CustomComponent";
 {% endcode %}
 
 {% code title="Page.tsx" overflow="wrap" lineNumbers="true" %}
-````tsx
-```typescriptreact
+```tsx
 export const Page = () => {
   const customComponentRef = createRef<RefProps>();
 
@@ -69,5 +68,4 @@ export const Page = () => {
   );
 };
 ```
-````
 {% endcode %}
