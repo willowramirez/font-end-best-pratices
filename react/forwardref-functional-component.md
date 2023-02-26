@@ -2,8 +2,6 @@
 
 {% code title="CustomComponent.tsx" overflow="wrap" lineNumbers="true" %}
 ```tsx
-
-
 import {
   ComponentType,
   createRef,
