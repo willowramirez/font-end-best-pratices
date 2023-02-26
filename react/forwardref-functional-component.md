@@ -4,7 +4,6 @@
 ```tsx
 import {
   ComponentType,
-  createRef,
   forwardRef,
   memo,
   useImperativeHandle,
@@ -22,15 +21,17 @@ interface RefProps {
   func: () => void;
 }
 
-const CustomComponentBase = props => {
+type CustomComponentWithRefProps = RefProps;
+
+const CustomComponent = props => {
   console.log("props", props);
 
   return <View></View>;
 };
 
-export const x = memo(CustomComponentBase);
+const CustomComponentMemo = memo(CustomComponent);
 
-export const CustomComponentRef = forwardRef<RefProps, Props>((props, ref) => {
+const CustomComponentWithRef = forwardRef<RefProps, Props>((props, ref) => {
   const componentRef = useRef<ComponentType>(null);
 
   useImperativeHandle(ref, () => ({
@@ -40,17 +41,32 @@ export const CustomComponentRef = forwardRef<RefProps, Props>((props, ref) => {
     },
   }));
 
-  return <CustomComponent ref={componentRef} {...props} />;
+  return (
+    <CustomComponentMemo
+      ref={componentRef}
+      {...props}
+    />
+  );
 });
 
-CustomComponentRef.displayName = "CustomComponent";
+CustomComponentWithRef.displayName = "CustomComponentWithRef";
+
+export {
+  CustomComponent,
+  CustomComponentMemo,
+  CustomComponentWithRef,
+  CustomComponentWithRefProps,
+};
 ```
 {% endcode %}
 
 {% code title="Page.tsx" overflow="wrap" lineNumbers="true" %}
 ```tsx
+import { createRef } from "react";
+import { View } from "@tarojs/components";
+
 export const Page = () => {
-  const customComponentRef = createRef<RefProps>();
+  const customComponentRef = createRef<CustomComponentWithRefProps>();
 
   const handleFunc = () => {
     console.log(customComponentRef.current?.func());
@@ -58,7 +74,7 @@ export const Page = () => {
 
   return (
     <View onClick={handleFunc}>
-      <CustomComponentRef
+      <CustomComponentWithRef
         ref={customComponentRef}
         from="Page"
       />
