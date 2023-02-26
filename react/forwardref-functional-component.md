@@ -1,2 +1,4 @@
 # ForwardRef Functional Component
 
+```tsx
+```

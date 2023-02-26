@@ -9,7 +9,7 @@
   * [🌰 cheatsheet](css/cheatsheet.md)
   * [z-index](css/z-index.md)
 * [Vue](vue.md)
-* [React](react/README.md)
+* [React](react.md)
   * [ForwardRef Functional Component](react/forwardref-functional-component.md)
 * [Node](node.md)
 * [Tools](tools.md)
