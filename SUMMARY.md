@@ -11,6 +11,7 @@
 * [Vue](vue.md)
 * [React](react.md)
   * [ForwardRef Functional Component](react/forwardref-functional-component.md)
+  * [Layout Class Component](react/layout-class-component.md)
 * [Node](node.md)
 * [Tools](tools.md)
 * [privacy](privacy.md)
